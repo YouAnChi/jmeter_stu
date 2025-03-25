@@ -1,0 +1,772 @@
+2025-03-25 17:35:16,879 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-03-25 17:35:16,886 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2025-03-25 17:35:16,887 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2025-03-25 17:35:16,888 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-03-25 17:35:16,889 INFO o.a.j.JMeter: Version 5.6.3
+2025-03-25 17:35:16,889 INFO o.a.j.JMeter: java.version=21.0.6
+2025-03-25 17:35:16,889 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-03-25 17:35:16,889 INFO o.a.j.JMeter: os.name=Mac OS X
+2025-03-25 17:35:16,889 INFO o.a.j.JMeter: os.arch=aarch64
+2025-03-25 17:35:16,889 INFO o.a.j.JMeter: os.version=15.3.2
+2025-03-25 17:35:16,889 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-03-25 17:35:16,889 INFO o.a.j.JMeter: java.awt.headless=true
+2025-03-25 17:35:16,889 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-03-25 17:35:16,889 INFO o.a.j.JMeter: Available Processors =10
+2025-03-25 17:35:16,892 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-03-25 17:35:16,892 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-03-25 17:35:16,892 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2025-03-25 17:35:16,892 INFO o.a.j.JMeter: user.dir  =/Users/lpd/Documents/project/jmeter
+2025-03-25 17:35:16,892 INFO o.a.j.JMeter: PWD       =/Users/lpd/Documents/project/jmeter
+2025-03-25 17:35:16,894 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: lpddeMac-mini.local FullName: localhost
+2025-03-25 17:35:16,898 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/lpd/Documents/project/jmeter/report'
+2025-03-25 17:35:16,899 INFO o.a.j.s.FileServer: Default base='/Users/lpd/Documents/project/jmeter'
+2025-03-25 17:35:16,900 INFO o.a.j.s.FileServer: Set new base='/Users/lpd/Documents/project/jmeter'
+2025-03-25 17:35:16,962 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-03-25 17:35:16,975 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-03-25 17:35:16,976 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-03-25 17:35:16,977 INFO o.a.j.s.SaveService: Loading file: test_plan.jmx
+2025-03-25 17:35:17,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-25 17:35:17,010 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-25 17:35:17,010 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-25 17:35:17,010 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-25 17:35:17,010 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-03-25 17:35:17,010 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-03-25 17:35:17,031 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-03-25 17:35:17,032 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-03-25 17:35:17,032 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: result.jtl
+2025-03-25 17:35:17,033 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/reportgenerator.properties
+2025-03-25 17:35:17,033 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-03-25 17:35:17,034 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-03-25 17:35:17,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-03-25 17:35:17,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-03-25 17:35:17,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-03-25 17:35:17,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-03-25 17:35:17,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-03-25 17:35:17,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-03-25 17:35:17,036 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-03-25 17:35:17,036 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-03-25 17:35:17,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-03-25 17:35:17,039 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-03-25 17:35:17,039 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-03-25 17:35:17,039 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-03-25 17:35:17,044 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-03-25 17:35:17,044 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-03-25 17:35:17,044 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-03-25 17:35:17,046 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-03-25 17:35:17,046 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-03-25 17:35:17,069 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-03-25 17:35:17,100 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-03-25 17:35:17,107 INFO o.a.j.JMeter: Running test (1742895317107)
+2025-03-25 17:35:17,113 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 健康检查测试
+2025-03-25 17:35:17,114 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group 健康检查测试.
+2025-03-25 17:35:17,114 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-03-25 17:35:17,114 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=5 delayedStart=false
+2025-03-25 17:35:17,116 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-1
+2025-03-25 17:35:17,122 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = lpddeMac-mini.local
+2025-03-25 17:35:17,125 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-03-25 17:35:17,125 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-03-25 17:35:17,125 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 数据库操作测试
+2025-03-25 17:35:17,125 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group 数据库操作测试.
+2025-03-25 17:35:17,125 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-03-25 17:35:17,125 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=30 ramp-up=5 delayedStart=false
+2025-03-25 17:35:17,125 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-03-25 17:35:17,126 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-03-25 17:35:17,126 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-03-25 17:35:17,126 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-03-25 17:35:17,126 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-1
+2025-03-25 17:35:17,130 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-03-25 17:35:17,130 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : 文件处理测试
+2025-03-25 17:35:17,130 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group 文件处理测试.
+2025-03-25 17:35:17,130 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-03-25 17:35:17,130 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=30 ramp-up=5 delayedStart=false
+2025-03-25 17:35:17,130 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-1
+2025-03-25 17:35:17,134 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2025-03-25 17:35:17,134 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : 混合负载测试
+2025-03-25 17:35:17,134 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 混合负载测试.
+2025-03-25 17:35:17,134 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-03-25 17:35:17,134 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=50 ramp-up=5 delayedStart=false
+2025-03-25 17:35:17,134 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-1
+2025-03-25 17:35:17,137 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2025-03-25 17:35:17,138 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-03-25 17:35:17,165 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-2
+2025-03-25 17:35:17,219 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-3
+2025-03-25 17:35:17,238 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-2
+2025-03-25 17:35:17,268 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-4
+2025-03-25 17:35:17,297 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-2
+2025-03-25 17:35:17,299 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-2
+2025-03-25 17:35:17,318 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-5
+2025-03-25 17:35:17,337 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-3
+2025-03-25 17:35:17,346 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-2
+2025-03-25 17:35:17,346 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-2
+2025-03-25 17:35:17,364 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-1
+2025-03-25 17:35:17,364 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-1
+2025-03-25 17:35:17,369 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-6
+2025-03-25 17:35:17,416 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-7
+2025-03-25 17:35:17,424 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-3
+2025-03-25 17:35:17,424 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-3
+2025-03-25 17:35:17,439 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-4
+2025-03-25 17:35:17,464 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-3
+2025-03-25 17:35:17,465 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-3
+2025-03-25 17:35:17,468 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-8
+2025-03-25 17:35:17,475 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-4
+2025-03-25 17:35:17,476 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-4
+2025-03-25 17:35:17,483 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-5
+2025-03-25 17:35:17,483 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-5
+2025-03-25 17:35:17,515 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-9
+2025-03-25 17:35:17,534 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-1
+2025-03-25 17:35:17,534 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-1
+2025-03-25 17:35:17,539 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-5
+2025-03-25 17:35:17,552 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-6
+2025-03-25 17:35:17,552 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-6
+2025-03-25 17:35:17,570 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-10
+2025-03-25 17:35:17,606 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-7
+2025-03-25 17:35:17,606 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-7
+2025-03-25 17:35:17,619 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-11
+2025-03-25 17:35:17,631 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-4
+2025-03-25 17:35:17,631 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-1
+2025-03-25 17:35:17,631 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-1
+2025-03-25 17:35:17,636 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-4
+2025-03-25 17:35:17,638 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-6
+2025-03-25 17:35:17,654 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-1
+2025-03-25 17:35:17,654 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-1
+2025-03-25 17:35:17,655 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-8
+2025-03-25 17:35:17,655 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-8
+2025-03-25 17:35:17,669 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-12
+2025-03-25 17:35:17,694 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-9
+2025-03-25 17:35:17,694 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-9
+2025-03-25 17:35:17,706 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-2
+2025-03-25 17:35:17,706 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-2
+2025-03-25 17:35:17,718 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-13
+2025-03-25 17:35:17,735 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-7
+2025-03-25 17:35:17,757 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-10
+2025-03-25 17:35:17,757 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-10
+2025-03-25 17:35:17,765 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-14
+2025-03-25 17:35:17,794 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-5
+2025-03-25 17:35:17,799 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-5
+2025-03-25 17:35:17,800 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-3
+2025-03-25 17:35:17,800 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-3
+2025-03-25 17:35:17,806 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-2
+2025-03-25 17:35:17,806 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-2
+2025-03-25 17:35:17,810 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-11
+2025-03-25 17:35:17,810 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-11
+2025-03-25 17:35:17,815 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-15
+2025-03-25 17:35:17,835 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-8
+2025-03-25 17:35:17,844 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-3
+2025-03-25 17:35:17,844 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-3
+2025-03-25 17:35:17,864 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-12
+2025-03-25 17:35:17,864 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-12
+2025-03-25 17:35:17,868 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-16
+2025-03-25 17:35:17,912 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-13
+2025-03-25 17:35:17,912 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-13
+2025-03-25 17:35:17,920 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-17
+2025-03-25 17:35:17,937 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-9
+2025-03-25 17:35:17,950 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-2
+2025-03-25 17:35:17,950 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-2
+2025-03-25 17:35:17,954 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-4
+2025-03-25 17:35:17,954 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-4
+2025-03-25 17:35:17,964 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-6
+2025-03-25 17:35:17,968 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-18
+2025-03-25 17:35:17,969 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-6
+2025-03-25 17:35:17,969 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-14
+2025-03-25 17:35:17,969 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-14
+2025-03-25 17:35:18,017 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-19
+2025-03-25 17:35:18,023 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-15
+2025-03-25 17:35:18,023 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-15
+2025-03-25 17:35:18,038 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-10
+2025-03-25 17:35:18,063 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-16
+2025-03-25 17:35:18,063 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-16
+2025-03-25 17:35:18,069 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-20
+2025-03-25 17:35:18,082 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-4
+2025-03-25 17:35:18,082 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-4
+2025-03-25 17:35:18,093 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-17
+2025-03-25 17:35:18,093 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-17
+2025-03-25 17:35:18,117 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-21
+2025-03-25 17:35:18,130 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-7
+2025-03-25 17:35:18,133 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-7
+2025-03-25 17:35:18,136 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-18
+2025-03-25 17:35:18,136 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-18
+2025-03-25 17:35:18,138 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-11
+2025-03-25 17:35:18,149 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-5
+2025-03-25 17:35:18,149 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-5
+2025-03-25 17:35:18,164 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-22
+2025-03-25 17:35:18,181 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-5
+2025-03-25 17:35:18,181 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-5
+2025-03-25 17:35:18,188 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-3
+2025-03-25 17:35:18,188 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-3
+2025-03-25 17:35:18,196 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-19
+2025-03-25 17:35:18,196 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-19
+2025-03-25 17:35:18,211 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-6
+2025-03-25 17:35:18,211 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-6
+2025-03-25 17:35:18,218 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-23
+2025-03-25 17:35:18,236 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-12
+2025-03-25 17:35:18,238 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-20
+2025-03-25 17:35:18,239 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-20
+2025-03-25 17:35:18,264 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-24
+2025-03-25 17:35:18,296 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-8
+2025-03-25 17:35:18,301 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-8
+2025-03-25 17:35:18,311 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-21
+2025-03-25 17:35:18,311 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-21
+2025-03-25 17:35:18,317 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-6
+2025-03-25 17:35:18,317 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-6
+2025-03-25 17:35:18,319 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-25
+2025-03-25 17:35:18,328 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-7
+2025-03-25 17:35:18,328 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-7
+2025-03-25 17:35:18,338 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-13
+2025-03-25 17:35:18,354 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-8
+2025-03-25 17:35:18,354 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-8
+2025-03-25 17:35:18,364 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-26
+2025-03-25 17:35:18,369 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-22
+2025-03-25 17:35:18,370 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-22
+2025-03-25 17:35:18,419 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-4
+2025-03-25 17:35:18,419 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-4
+2025-03-25 17:35:18,420 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-27
+2025-03-25 17:35:18,425 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-23
+2025-03-25 17:35:18,425 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-23
+2025-03-25 17:35:18,437 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-14
+2025-03-25 17:35:18,456 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-9
+2025-03-25 17:35:18,456 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-9
+2025-03-25 17:35:18,464 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-9
+2025-03-25 17:35:18,466 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-28
+2025-03-25 17:35:18,471 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-9
+2025-03-25 17:35:18,476 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-7
+2025-03-25 17:35:18,476 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-7
+2025-03-25 17:35:18,478 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-24
+2025-03-25 17:35:18,478 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-24
+2025-03-25 17:35:18,496 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-25
+2025-03-25 17:35:18,496 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-25
+2025-03-25 17:35:18,515 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-29
+2025-03-25 17:35:18,536 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-15
+2025-03-25 17:35:18,538 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-26
+2025-03-25 17:35:18,538 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-26
+2025-03-25 17:35:18,569 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-30
+2025-03-25 17:35:18,573 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-8
+2025-03-25 17:35:18,573 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-8
+2025-03-25 17:35:18,580 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-27
+2025-03-25 17:35:18,580 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-27
+2025-03-25 17:35:18,603 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-5
+2025-03-25 17:35:18,604 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-5
+2025-03-25 17:35:18,615 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-31
+2025-03-25 17:35:18,633 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-10
+2025-03-25 17:35:18,635 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-10
+2025-03-25 17:35:18,635 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-16
+2025-03-25 17:35:18,643 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-28
+2025-03-25 17:35:18,643 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-28
+2025-03-25 17:35:18,668 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-32
+2025-03-25 17:35:18,687 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-10
+2025-03-25 17:35:18,687 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-10
+2025-03-25 17:35:18,689 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-29
+2025-03-25 17:35:18,689 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-29
+2025-03-25 17:35:18,715 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-33
+2025-03-25 17:35:18,739 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-17
+2025-03-25 17:35:18,752 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-11
+2025-03-25 17:35:18,752 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-30
+2025-03-25 17:35:18,752 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-11
+2025-03-25 17:35:18,752 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-30
+2025-03-25 17:35:18,764 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-34
+2025-03-25 17:35:18,777 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-12
+2025-03-25 17:35:18,777 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-12
+2025-03-25 17:35:18,791 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-6
+2025-03-25 17:35:18,791 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-6
+2025-03-25 17:35:18,793 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-31
+2025-03-25 17:35:18,793 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-31
+2025-03-25 17:35:18,800 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-11
+2025-03-25 17:35:18,801 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-11
+2025-03-25 17:35:18,815 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-35
+2025-03-25 17:35:18,838 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-32
+2025-03-25 17:35:18,839 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-32
+2025-03-25 17:35:18,839 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-18
+2025-03-25 17:35:18,869 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-36
+2025-03-25 17:35:18,869 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-9
+2025-03-25 17:35:18,869 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-9
+2025-03-25 17:35:18,884 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-33
+2025-03-25 17:35:18,884 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-33
+2025-03-25 17:35:18,917 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-37
+2025-03-25 17:35:18,923 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-13
+2025-03-25 17:35:18,923 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-13
+2025-03-25 17:35:18,939 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-19
+2025-03-25 17:35:18,959 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-7
+2025-03-25 17:35:18,959 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-34
+2025-03-25 17:35:18,960 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-7
+2025-03-25 17:35:18,960 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-34
+2025-03-25 17:35:18,963 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-12
+2025-03-25 17:35:18,966 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-38
+2025-03-25 17:35:18,968 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-12
+2025-03-25 17:35:19,015 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-35
+2025-03-25 17:35:19,015 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-35
+2025-03-25 17:35:19,016 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-10
+2025-03-25 17:35:19,017 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-10
+2025-03-25 17:35:19,018 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-39
+2025-03-25 17:35:19,034 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-20
+2025-03-25 17:35:19,049 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-14
+2025-03-25 17:35:19,049 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-14
+2025-03-25 17:35:19,064 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-11
+2025-03-25 17:35:19,064 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-11
+2025-03-25 17:35:19,065 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-36
+2025-03-25 17:35:19,065 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-36
+2025-03-25 17:35:19,069 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-40
+2025-03-25 17:35:19,111 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-37
+2025-03-25 17:35:19,111 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-37
+2025-03-25 17:35:19,114 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-41
+2025-03-25 17:35:19,132 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-13
+2025-03-25 17:35:19,135 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-13
+2025-03-25 17:35:19,136 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-38
+2025-03-25 17:35:19,137 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-38
+2025-03-25 17:35:19,136 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-21
+2025-03-25 17:35:19,151 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-8
+2025-03-25 17:35:19,151 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-8
+2025-03-25 17:35:19,151 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-15
+2025-03-25 17:35:19,151 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-15
+2025-03-25 17:35:19,169 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-42
+2025-03-25 17:35:19,169 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-39
+2025-03-25 17:35:19,169 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-39
+2025-03-25 17:35:19,198 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-16
+2025-03-25 17:35:19,198 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-16
+2025-03-25 17:35:19,219 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-43
+2025-03-25 17:35:19,236 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-22
+2025-03-25 17:35:19,244 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-12
+2025-03-25 17:35:19,244 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-12
+2025-03-25 17:35:19,250 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-9
+2025-03-25 17:35:19,250 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-9
+2025-03-25 17:35:19,250 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-40
+2025-03-25 17:35:19,250 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-40
+2025-03-25 17:35:19,269 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-44
+2025-03-25 17:35:19,299 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-14
+2025-03-25 17:35:19,306 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-41
+2025-03-25 17:35:19,306 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-41
+2025-03-25 17:35:19,306 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-14
+2025-03-25 17:35:19,308 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-17
+2025-03-25 17:35:19,308 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-17
+2025-03-25 17:35:19,320 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-45
+2025-03-25 17:35:19,337 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-23
+2025-03-25 17:35:19,368 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-46
+2025-03-25 17:35:19,373 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-42
+2025-03-25 17:35:19,373 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-42
+2025-03-25 17:35:19,391 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-43
+2025-03-25 17:35:19,391 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-43
+2025-03-25 17:35:19,418 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-47
+2025-03-25 17:35:19,434 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-24
+2025-03-25 17:35:19,458 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-44
+2025-03-25 17:35:19,458 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-44
+2025-03-25 17:35:19,468 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-15
+2025-03-25 17:35:19,468 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-48
+2025-03-25 17:35:19,472 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-15
+2025-03-25 17:35:19,478 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-13
+2025-03-25 17:35:19,478 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-13
+2025-03-25 17:35:19,504 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-45
+2025-03-25 17:35:19,504 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-45
+2025-03-25 17:35:19,517 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-49
+2025-03-25 17:35:19,521 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-19
+2025-03-25 17:35:19,521 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-19
+2025-03-25 17:35:19,535 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-25
+2025-03-25 17:35:19,551 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-46
+2025-03-25 17:35:19,551 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-46
+2025-03-25 17:35:19,561 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-18
+2025-03-25 17:35:19,561 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-18
+2025-03-25 17:35:19,567 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-50
+2025-03-25 17:35:19,600 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-14
+2025-03-25 17:35:19,600 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-14
+2025-03-25 17:35:19,618 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-51
+2025-03-25 17:35:19,623 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-48
+2025-03-25 17:35:19,623 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-48
+2025-03-25 17:35:19,623 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-10
+2025-03-25 17:35:19,623 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-10
+2025-03-25 17:35:19,630 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-16
+2025-03-25 17:35:19,632 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-47
+2025-03-25 17:35:19,632 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-47
+2025-03-25 17:35:19,638 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-16
+2025-03-25 17:35:19,638 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-26
+2025-03-25 17:35:19,669 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-52
+2025-03-25 17:35:19,679 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-20
+2025-03-25 17:35:19,679 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-20
+2025-03-25 17:35:19,680 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-21
+2025-03-25 17:35:19,680 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-21
+2025-03-25 17:35:19,714 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-49
+2025-03-25 17:35:19,714 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-49
+2025-03-25 17:35:19,715 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-53
+2025-03-25 17:35:19,734 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-27
+2025-03-25 17:35:19,765 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-54
+2025-03-25 17:35:19,773 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-50
+2025-03-25 17:35:19,773 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-50
+2025-03-25 17:35:19,798 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-17
+2025-03-25 17:35:19,805 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-17
+2025-03-25 17:35:19,812 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-51
+2025-03-25 17:35:19,812 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-51
+2025-03-25 17:35:19,814 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-22
+2025-03-25 17:35:19,814 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-22
+2025-03-25 17:35:19,817 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-55
+2025-03-25 17:35:19,822 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-11
+2025-03-25 17:35:19,822 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-11
+2025-03-25 17:35:19,837 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-28
+2025-03-25 17:35:19,848 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-52
+2025-03-25 17:35:19,848 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-52
+2025-03-25 17:35:19,870 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-56
+2025-03-25 17:35:19,874 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-12
+2025-03-25 17:35:19,874 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-12
+2025-03-25 17:35:19,906 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-15
+2025-03-25 17:35:19,906 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-15
+2025-03-25 17:35:19,911 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-53
+2025-03-25 17:35:19,911 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-53
+2025-03-25 17:35:19,918 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-57
+2025-03-25 17:35:19,930 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-23
+2025-03-25 17:35:19,930 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-23
+2025-03-25 17:35:19,936 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-29
+2025-03-25 17:35:19,960 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-54
+2025-03-25 17:35:19,960 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-54
+2025-03-25 17:35:19,964 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-18
+2025-03-25 17:35:19,970 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-18
+2025-03-25 17:35:19,970 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-58
+2025-03-25 17:35:19,989 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-24
+2025-03-25 17:35:19,989 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-24
+2025-03-25 17:35:19,994 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-55
+2025-03-25 17:35:19,994 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-55
+2025-03-25 17:35:20,014 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-59
+2025-03-25 17:35:20,016 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-16
+2025-03-25 17:35:20,016 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-16
+2025-03-25 17:35:20,037 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-30
+2025-03-25 17:35:20,049 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-56
+2025-03-25 17:35:20,049 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-56
+2025-03-25 17:35:20,066 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-60
+2025-03-25 17:35:20,092 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-57
+2025-03-25 17:35:20,092 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-57
+2025-03-25 17:35:20,119 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-61
+2025-03-25 17:35:20,133 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-19
+2025-03-25 17:35:20,139 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-31
+2025-03-25 17:35:20,141 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-19
+2025-03-25 17:35:20,153 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-58
+2025-03-25 17:35:20,153 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-58
+2025-03-25 17:35:20,162 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-17
+2025-03-25 17:35:20,162 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-17
+2025-03-25 17:35:20,165 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-62
+2025-03-25 17:35:20,186 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-25
+2025-03-25 17:35:20,186 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-25
+2025-03-25 17:35:20,213 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-13
+2025-03-25 17:35:20,214 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-13
+2025-03-25 17:35:20,214 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-59
+2025-03-25 17:35:20,215 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-59
+2025-03-25 17:35:20,215 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-63
+2025-03-25 17:35:20,237 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-32
+2025-03-25 17:35:20,241 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-60
+2025-03-25 17:35:20,241 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-60
+2025-03-25 17:35:20,269 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-64
+2025-03-25 17:35:20,279 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-27
+2025-03-25 17:35:20,279 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-27
+2025-03-25 17:35:20,288 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-61
+2025-03-25 17:35:20,288 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-61
+2025-03-25 17:35:20,299 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-20
+2025-03-25 17:35:20,299 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-18
+2025-03-25 17:35:20,299 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-18
+2025-03-25 17:35:20,303 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-20
+2025-03-25 17:35:20,318 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-65
+2025-03-25 17:35:20,336 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-33
+2025-03-25 17:35:20,337 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-26
+2025-03-25 17:35:20,337 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-26
+2025-03-25 17:35:20,338 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-62
+2025-03-25 17:35:20,338 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-62
+2025-03-25 17:35:20,367 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-66
+2025-03-25 17:35:20,396 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-63
+2025-03-25 17:35:20,396 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-63
+2025-03-25 17:35:20,418 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-67
+2025-03-25 17:35:20,434 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-34
+2025-03-25 17:35:20,458 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-64
+2025-03-25 17:35:20,459 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-64
+2025-03-25 17:35:20,468 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-68
+2025-03-25 17:35:20,468 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-21
+2025-03-25 17:35:20,475 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-21
+2025-03-25 17:35:20,480 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-14
+2025-03-25 17:35:20,480 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-14
+2025-03-25 17:35:20,503 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-19
+2025-03-25 17:35:20,503 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-19
+2025-03-25 17:35:20,511 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-65
+2025-03-25 17:35:20,511 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-65
+2025-03-25 17:35:20,519 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-69
+2025-03-25 17:35:20,526 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-28
+2025-03-25 17:35:20,526 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-28
+2025-03-25 17:35:20,537 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-35
+2025-03-25 17:35:20,549 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-29
+2025-03-25 17:35:20,549 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-29
+2025-03-25 17:35:20,568 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-70
+2025-03-25 17:35:20,609 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-66
+2025-03-25 17:35:20,609 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-66
+2025-03-25 17:35:20,612 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-20
+2025-03-25 17:35:20,612 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-20
+2025-03-25 17:35:20,615 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-71
+2025-03-25 17:35:20,619 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-15
+2025-03-25 17:35:20,619 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-15
+2025-03-25 17:35:20,629 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-67
+2025-03-25 17:35:20,629 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-67
+2025-03-25 17:35:20,637 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-22
+2025-03-25 17:35:20,637 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-36
+2025-03-25 17:35:20,641 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-22
+2025-03-25 17:35:20,668 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-72
+2025-03-25 17:35:20,716 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-73
+2025-03-25 17:35:20,726 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-68
+2025-03-25 17:35:20,726 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-68
+2025-03-25 17:35:20,736 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-37
+2025-03-25 17:35:20,769 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-74
+2025-03-25 17:35:20,776 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-69
+2025-03-25 17:35:20,776 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-69
+2025-03-25 17:35:20,787 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-30
+2025-03-25 17:35:20,787 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-30
+2025-03-25 17:35:20,795 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-70
+2025-03-25 17:35:20,795 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-70
+2025-03-25 17:35:20,801 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-23
+2025-03-25 17:35:20,804 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-21
+2025-03-25 17:35:20,804 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-21
+2025-03-25 17:35:20,808 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-23
+2025-03-25 17:35:20,819 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-75
+2025-03-25 17:35:20,835 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-31
+2025-03-25 17:35:20,835 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-31
+2025-03-25 17:35:20,838 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-38
+2025-03-25 17:35:20,842 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-32
+2025-03-25 17:35:20,842 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-32
+2025-03-25 17:35:20,850 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-71
+2025-03-25 17:35:20,850 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-71
+2025-03-25 17:35:20,854 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-16
+2025-03-25 17:35:20,854 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-16
+2025-03-25 17:35:20,867 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-76
+2025-03-25 17:35:20,869 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-72
+2025-03-25 17:35:20,869 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-72
+2025-03-25 17:35:20,918 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-77
+2025-03-25 17:35:20,924 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-73
+2025-03-25 17:35:20,924 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-73
+2025-03-25 17:35:20,938 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-39
+2025-03-25 17:35:20,964 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-78
+2025-03-25 17:35:20,971 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-24
+2025-03-25 17:35:20,974 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-24
+2025-03-25 17:35:20,976 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-74
+2025-03-25 17:35:20,976 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-74
+2025-03-25 17:35:20,982 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-22
+2025-03-25 17:35:20,982 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-22
+2025-03-25 17:35:20,987 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-33
+2025-03-25 17:35:20,987 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-33
+2025-03-25 17:35:21,010 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-75
+2025-03-25 17:35:21,010 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-75
+2025-03-25 17:35:21,015 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-79
+2025-03-25 17:35:21,034 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-76
+2025-03-25 17:35:21,034 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-76
+2025-03-25 17:35:21,038 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-40
+2025-03-25 17:35:21,043 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-17
+2025-03-25 17:35:21,043 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-17
+2025-03-25 17:35:21,067 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-80
+2025-03-25 17:35:21,099 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-77
+2025-03-25 17:35:21,099 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-77
+2025-03-25 17:35:21,115 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-81
+2025-03-25 17:35:21,133 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-25
+2025-03-25 17:35:21,139 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-25
+2025-03-25 17:35:21,140 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-41
+2025-03-25 17:35:21,150 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-78
+2025-03-25 17:35:21,150 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-78
+2025-03-25 17:35:21,169 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-82
+2025-03-25 17:35:21,175 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-34
+2025-03-25 17:35:21,175 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-34
+2025-03-25 17:35:21,188 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-79
+2025-03-25 17:35:21,188 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-79
+2025-03-25 17:35:21,191 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-18
+2025-03-25 17:35:21,191 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-18
+2025-03-25 17:35:21,198 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-23
+2025-03-25 17:35:21,198 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-23
+2025-03-25 17:35:21,220 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-83
+2025-03-25 17:35:21,236 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-35
+2025-03-25 17:35:21,237 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-35
+2025-03-25 17:35:21,238 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-42
+2025-03-25 17:35:21,255 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-80
+2025-03-25 17:35:21,255 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-80
+2025-03-25 17:35:21,268 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-84
+2025-03-25 17:35:21,300 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-37
+2025-03-25 17:35:21,300 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-36
+2025-03-25 17:35:21,300 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-37
+2025-03-25 17:35:21,300 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-36
+2025-03-25 17:35:21,306 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-26
+2025-03-25 17:35:21,306 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-26
+2025-03-25 17:35:21,319 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-85
+2025-03-25 17:35:21,322 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-81
+2025-03-25 17:35:21,322 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-81
+2025-03-25 17:35:21,340 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-43
+2025-03-25 17:35:21,343 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-24
+2025-03-25 17:35:21,343 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-24
+2025-03-25 17:35:21,351 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-19
+2025-03-25 17:35:21,351 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-19
+2025-03-25 17:35:21,368 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-86
+2025-03-25 17:35:21,388 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-82
+2025-03-25 17:35:21,388 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-82
+2025-03-25 17:35:21,411 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-38
+2025-03-25 17:35:21,411 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-38
+2025-03-25 17:35:21,417 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-87
+2025-03-25 17:35:21,438 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-44
+2025-03-25 17:35:21,467 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-88
+2025-03-25 17:35:21,467 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-27
+2025-03-25 17:35:21,471 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-83
+2025-03-25 17:35:21,471 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-83
+2025-03-25 17:35:21,472 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-27
+2025-03-25 17:35:21,515 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-89
+2025-03-25 17:35:21,529 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-85
+2025-03-25 17:35:21,530 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-85
+2025-03-25 17:35:21,538 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-45
+2025-03-25 17:35:21,538 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-84
+2025-03-25 17:35:21,538 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-84
+2025-03-25 17:35:21,566 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-90
+2025-03-25 17:35:21,568 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-20
+2025-03-25 17:35:21,568 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-20
+2025-03-25 17:35:21,573 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-86
+2025-03-25 17:35:21,573 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-86
+2025-03-25 17:35:21,599 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-40
+2025-03-25 17:35:21,599 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-25
+2025-03-25 17:35:21,599 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-40
+2025-03-25 17:35:21,599 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-25
+2025-03-25 17:35:21,611 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-87
+2025-03-25 17:35:21,611 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-87
+2025-03-25 17:35:21,618 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-91
+2025-03-25 17:35:21,634 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-46
+2025-03-25 17:35:21,638 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-28
+2025-03-25 17:35:21,641 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-39
+2025-03-25 17:35:21,641 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-39
+2025-03-25 17:35:21,644 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-28
+2025-03-25 17:35:21,664 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-92
+2025-03-25 17:35:21,697 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-88
+2025-03-25 17:35:21,697 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-88
+2025-03-25 17:35:21,717 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-89
+2025-03-25 17:35:21,718 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-89
+2025-03-25 17:35:21,719 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-93
+2025-03-25 17:35:21,737 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-47
+2025-03-25 17:35:21,738 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-41
+2025-03-25 17:35:21,738 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-41
+2025-03-25 17:35:21,744 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-26
+2025-03-25 17:35:21,744 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-26
+2025-03-25 17:35:21,769 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-94
+2025-03-25 17:35:21,783 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-21
+2025-03-25 17:35:21,783 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-21
+2025-03-25 17:35:21,807 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-29
+2025-03-25 17:35:21,810 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-29
+2025-03-25 17:35:21,816 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-95
+2025-03-25 17:35:21,821 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-90
+2025-03-25 17:35:21,821 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-90
+2025-03-25 17:35:21,834 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-48
+2025-03-25 17:35:21,854 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-42
+2025-03-25 17:35:21,854 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-42
+2025-03-25 17:35:21,860 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-27
+2025-03-25 17:35:21,860 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-27
+2025-03-25 17:35:21,864 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-96
+2025-03-25 17:35:21,874 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-91
+2025-03-25 17:35:21,874 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-91
+2025-03-25 17:35:21,919 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-97
+2025-03-25 17:35:21,936 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-22
+2025-03-25 17:35:21,937 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-22
+2025-03-25 17:35:21,940 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-49
+2025-03-25 17:35:21,941 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-92
+2025-03-25 17:35:21,941 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-92
+2025-03-25 17:35:21,941 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-28
+2025-03-25 17:35:21,941 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-28
+2025-03-25 17:35:21,965 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-98
+2025-03-25 17:35:21,972 INFO o.a.j.t.JMeterThread: Thread started: 数据库操作测试 2-30
+2025-03-25 17:35:21,974 INFO o.a.j.t.JMeterThread: Thread started: 文件处理测试 3-30
+2025-03-25 17:35:22,019 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-99
+2025-03-25 17:35:22,023 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-44
+2025-03-25 17:35:22,023 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-44
+2025-03-25 17:35:22,038 INFO o.a.j.t.JMeterThread: Thread started: 混合负载测试 4-50
+2025-03-25 17:35:22,069 INFO o.a.j.t.JMeterThread: Thread started: 健康检查测试 1-100
+2025-03-25 17:35:22,098 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-93
+2025-03-25 17:35:22,098 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-93
+2025-03-25 17:35:22,113 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-94
+2025-03-25 17:35:22,113 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-43
+2025-03-25 17:35:22,113 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-94
+2025-03-25 17:35:22,113 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-43
+2025-03-25 17:35:22,155 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-95
+2025-03-25 17:35:22,155 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-95
+2025-03-25 17:35:22,187 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-45
+2025-03-25 17:35:22,187 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-45
+2025-03-25 17:35:22,188 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-29
+2025-03-25 17:35:22,188 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-29
+2025-03-25 17:35:22,202 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-96
+2025-03-25 17:35:22,202 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-96
+2025-03-25 17:35:22,205 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-23
+2025-03-25 17:35:22,205 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-23
+2025-03-25 17:35:22,219 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-97
+2025-03-25 17:35:22,219 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-97
+2025-03-25 17:35:22,276 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-98
+2025-03-25 17:35:22,276 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-98
+2025-03-25 17:35:22,292 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-100
+2025-03-25 17:35:22,292 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-100
+2025-03-25 17:35:22,315 INFO o.a.j.t.JMeterThread: Thread is done: 健康检查测试 1-99
+2025-03-25 17:35:22,315 INFO o.a.j.t.JMeterThread: Thread finished: 健康检查测试 1-99
+2025-03-25 17:35:22,317 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-46
+2025-03-25 17:35:22,317 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-46
+2025-03-25 17:35:22,426 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-47
+2025-03-25 17:35:22,426 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-47
+2025-03-25 17:35:22,432 INFO o.a.j.t.JMeterThread: Thread is done: 文件处理测试 3-30
+2025-03-25 17:35:22,432 INFO o.a.j.t.JMeterThread: Thread finished: 文件处理测试 3-30
+2025-03-25 17:35:22,435 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-24
+2025-03-25 17:35:22,435 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-24
+2025-03-25 17:35:22,471 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-25
+2025-03-25 17:35:22,471 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-25
+2025-03-25 17:35:22,499 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-48
+2025-03-25 17:35:22,499 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-48
+2025-03-25 17:35:22,546 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-26
+2025-03-25 17:35:22,546 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-26
+2025-03-25 17:35:22,640 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-49
+2025-03-25 17:35:22,640 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-49
+2025-03-25 17:35:22,683 INFO o.a.j.t.JMeterThread: Thread is done: 混合负载测试 4-50
+2025-03-25 17:35:22,683 INFO o.a.j.t.JMeterThread: Thread finished: 混合负载测试 4-50
+2025-03-25 17:35:22,763 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-27
+2025-03-25 17:35:22,763 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-27
+2025-03-25 17:35:22,824 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-28
+2025-03-25 17:35:22,824 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-28
+2025-03-25 17:35:22,837 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-29
+2025-03-25 17:35:22,837 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-29
+2025-03-25 17:35:22,904 INFO o.a.j.t.JMeterThread: Thread is done: 数据库操作测试 2-30
+2025-03-25 17:35:22,905 INFO o.a.j.t.JMeterThread: Thread finished: 数据库操作测试 2-30
+2025-03-25 17:35:22,906 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-03-25 17:35:22,907 INFO o.a.j.r.Summariser: summary =   1700 in 00:00:06 =  293.2/s Avg:    55 Min:    13 Max:   268 Err:     0 (0.00%)
+2025-03-25 17:35:22,908 INFO o.a.j.JMeter: Generating Dashboard
+2025-03-25 17:35:22,908 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-03-25 17:35:22,919 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-03-25 17:35:22,977 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-03-25 17:35:22,977 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-03-25 17:35:22,978 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-03-25 17:35:22,978 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-03-25 17:35:22,980 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-03-25 17:35:22,981 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-03-25 17:35:22,981 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-03-25 17:35:22,981 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-03-25 17:35:22,992 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-03-25 17:35:22,992 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-03-25 17:35:22,993 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-03-25 17:35:22,993 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-03-25 17:35:23,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-03-25 17:35:23,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 11900 samples
+2025-03-25 17:35:23,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-03-25 17:35:23,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-03-25 17:35:23,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-03-25 17:35:23,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-03-25 17:35:23,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-03-25 17:35:23,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-03-25 17:35:23,003 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-03-25 17:35:23,003 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-03-25 17:35:23,003 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-03-25 17:35:23,003 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-03-25 17:35:23,003 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 25500 samples
+2025-03-25 17:35:23,003 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 5100 samples
+2025-03-25 17:35:23,003 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1700 samples
+2025-03-25 17:35:23,003 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1700 samples produced in 72ms on channel 0
+2025-03-25 17:35:23,003 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-03-25 17:35:23,028 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-03-25 17:35:23,028 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-03-25 17:35:23,028 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-03-25 17:35:23,028 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-03-25 17:35:23,029 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /Users/lpd/Documents/project/jmeter/report/statistics.json
+2025-03-25 17:35:23,042 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-03-25 17:35:23,043 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /Users/lpd/Documents/project/jmeter/report
+2025-03-25 17:35:23,082 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /Users/lpd/Documents/project/jmeter/report, creating folder structure
+2025-03-25 17:35:23,083 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/report-template' to '/Users/lpd/Documents/project/jmeter/report', got message: /Users/lpd/Documents/project/jmeter/report, found non empty folder with following content [/Users/lpd/Documents/project/jmeter/report/statistics.json], will be ignored
+2025-03-25 17:35:23,190 INFO o.a.j.JMeter: Dashboard generated
